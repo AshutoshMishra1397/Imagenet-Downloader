@@ -5,7 +5,7 @@ Created on Thu Feb  4 21:23:14 2021
 
 @author: Ashutosh Mishra
 """
-import torchvision,torch, torch.utils.data, glob,os, numpy, PIL, argparse, requests,logging, json
+import glob,os, numpy, PIL, argparse, requests,logging, json
 from PIL import Image
 from requests.exceptions import ConnectionError,ReadTimeout,TooManyRedirects,MissingSchema,InvalidURL
 
